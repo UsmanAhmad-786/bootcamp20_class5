@@ -8,7 +8,7 @@ const Parent = (props) => {
   return (
     <div>
       <Child />
-      <br />
+      <hr />
       <Child2 />
 
     </div>
