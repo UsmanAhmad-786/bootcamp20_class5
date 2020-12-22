@@ -1,6 +1,5 @@
 import React,{useReducer} from 'react';
 import CountReducer from './CountReducer'
-import Parent from './Parent.js'
 
 const Child2=()=>{
     let [state, dispatch]= useReducer(CountReducer,1);
